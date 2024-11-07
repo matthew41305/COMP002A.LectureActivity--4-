@@ -19,6 +19,23 @@ for (let i = 0; i < numbers.length; i++) {
 numbers.push(69, 17, 99, 42, 34);
 
 // output contents
+console.log("This is the Array after the Push:", numbers);
+
+// using pop
+numbers.pop();
+numbers.pop();
+numbers.pop();
+
+// output contents of array
+
+console.log("Array after 3 pops:", numbers);
+
+//declare string
+let myString = "Hello, Jonathan!";
+
+console.log("Length of myString:", myString.length);
+
+
 
 
 
